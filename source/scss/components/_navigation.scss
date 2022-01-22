@@ -8,11 +8,11 @@
 
 	.navbar-nav {
 		.nav-item {
-			position: relative;
+			position: fixed;
 			font-family: $primary-font;
 
 			.nav-link {
-				position: relative;
+				position: fixed;
 				text-align: center;
 				font-size: 13px;
 				text-transform: uppercase;
@@ -54,7 +54,7 @@
 	}
 
 	.dropdown {
-		position: relative;
+		position: fixed;
 
 		.open>a,
 		.open>a:focus,
@@ -72,7 +72,7 @@
 		@include desktop {
 			transform: none;
 			left: auto;
-			position: relative;
+			position: fixed;
 			text-align: center;
 		}
 
