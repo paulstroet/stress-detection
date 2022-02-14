@@ -78,7 +78,7 @@
         year: 2022,
         month: 2,
         day: 15,
-        hour: 9,
+        hour: 24,
         minute: 0
       });
     }
